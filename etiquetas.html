@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head><!--Aquí empieza el head-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETIQUETAS</title>
+    <link rel="stylesheet" href="recursos/style.css">
+    <link rel="icon" href="imagenes/hollowgif.gif">
+
+</head><!--Aquí termina el head-->
+
+
+
+<body> <!--Aquí empieza el body-->
+
+    <header> <!--Aquí empieza el encabezado-->
+
+        <nav>
+
+            <a href="index.html">INICIO</a>
+            <a href="programacion.html">13/08/2024</a>
+            <a href="botones.html">20/08/2024</a>
+            <a href="insertar.html">27/08/2024</a>
+            <a href="inline.html">INLINE</a>
+            <a href="estilos.html">03/09/2024</a>
+            <a href="etiquetas.html">10/09/2024</a>
+            <a href="parcial.html">PARCIAL</a>
+
+            <hr>
+        </nav>
+
+    </header> <!--Aquí termina el encabezado-->
+
+    <section>
+
+        <h3>Etiquetas de Marcado de Texto</h3>
+
+        <p>
+            En este documento, utilizaremos la etiqueta dfn en HTML para definir el lenguaje de marcado de hipertexto utilizado para crear páginas web.
+        </p>
+        <p>
+            La <dfn title="Cascading Style Sheets">CSS</dfn> es un lenguaje utilizado para describir la presentación de un documento HTML. Proporciona un control visual sobre cómo se muestra el contenido HTML en un navegador web.
+        </p>
+    </section>
+
+    <section>
+        <blockquote>
+            <p>La imaginación es más importante que el conocimiento.
+                El conocimiento es limitado, mientras que la imaginación no tiene limites.</p>
+
+            <cite>Albert Einstein</cite>
+        </blockquote>
+    </section>
+
+    <section>
+        <!--
+            border = grosor de la linea
+            table = estructura de la tabla
+            cellpadding = separación interna de cada celda
+            cellspacing = espacio entre celdas
+            summary = describe el contenido de la tabla
+            tr = representa una fila
+            td = representa columnas dentro de una fila
+            colspan = determina el número de columnas que ocupa la celda
+            rowspan = filas que ocupa la celda
+         -->
+
+        <table border="1" cellpadding="5" cellspacing="0" summary="Tabla simple">
+
+            <caption>TABLA SIMPLE DEMOSTRACIÓN</caption>
+
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Celda 1</td>
+                <td colspan="2">Celda 2</td>
+            </tr>
+            <tr>
+                <td>Celda 3</td>
+                <td>Celda 4</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <table border="2" cellpadding="30" cellspacing="0" summary="Tabla simple">
+
+            <caption>TABLA 2 - CARTELERA</caption>
+
+            <tr>
+                <th colspan="3">EL PADRINO</th>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td>20:30</td>
+                <td>22:30</td>
+            </tr>
+            <tr>
+                <th colspan="3">CASINO</th>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td>20:30</td>
+                <td>22:30</td>
+            </tr>
+            <tr>
+               <th colspan="3">BLUE MAGIC</th> 
+            </tr>
+            <tr>
+                <td>19:30</td>
+                <td>21:30</td>
+                <td>23:30</td>
+            </tr>
+        </table>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total 1</td>
+                    <td>Total 2</td>
+                    <td>Total 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section>
+        
+        <h3>Mis Peliculas Favoritas</h3>
+        
+        <div>
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="accion">Acción</option>
+                <option value="aventura">Aventura</option>
+                <option value="comedia">Comedia</option>
+                <option value="drama">Drama</option>
+                <option value="cienciaficcion">Ciencia Ficción</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="año">Año</label>
+            <select name="año" id="año">
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="calificación">Calificación</label>
+            <select name="calificacion" id="calificacion">
+                <option value="5">5 Estrellas</option>
+                <option value="4">4 Estrellas</option>
+                <option value="3">3 Estrellas</option>
+                <option value="2">2 Estrellas</option>
+                <option value="1">1 Estrella</option>
+            </select>
+        </div>
+    </section>
+
+    <section>
+        <h3>Ejemplo de Películas Favoritass</h3>
+
+        <ul>
+            <li>
+                <input type="checkbox" id="pelicula1" name="pelicula1" value="pelicula1">
+                <label for="pelicula1">The Shawshank Redemption</label>
+            </li>
+            <li>
+                <input type="checkbox" id="pelicula2" name="pelicula2" value="pelicula2">
+                <label for="pelicula2">The Godfather</label>
+            </li>
+            <li>
+                <input type="checkbox" id="pelicula3" name="pelicula3" value="pelicula3">
+                <label for="pelicula3">The Dark Knight</label>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Formulario con Campos Agrupados</h3>
+
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dirección</legend>
+                <div>
+                    <label for="calle">Calle:</label>
+                    <input type="text" id="calle" name="calle">
+                </div>
+                <div>
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado">
+                </div>
+            </fieldset>
+            
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <h3>SEGUIR EN LA DIAPOSITIVA 24</h3>
+
+
+
+    </section>
+
+
+    <footer>
+        <hr>
+        <a href="nosotros.html">NOSOTROS</a>
+        <a href="contacto.html">CONTACTO</a>
+        <a href="nosotros.html">NOSOTROS</a>
+    </footer>
+
+
+</body> <!--Aquí termina el body-->
+
+
+
+
+</html> <!--Aquí termina tú codigo-->

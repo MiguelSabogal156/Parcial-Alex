@@ -1,0 +1,592 @@
+/* Header */
+
+header {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+/* body */
+
+body {
+    background-color: gainsboro;
+}
+
+/* Títulos h1-h3 */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: blue;
+
+}
+
+h2 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+h3 {
+
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: blue;
+}
+
+/* Enlaces */
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Imagenes */
+
+img {
+    border: 3px blue;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.imagen_unica {
+    width: 300px;
+    max-width: max-content;
+    min-width: min-content;
+    height: 300px;
+    max-height: max-content;
+    min-height: min-content;
+    display: block;
+    margin: auto;
+}
+
+.imagen_tripe {
+    width: 150px;
+    max-width: max-content;
+    min-width: min-content;
+    height: 150px;
+    max-height: max-content;
+    min-height: min-content;
+    display: block;
+    margin: auto;
+}
+
+/* ID */
+
+#gif_unico {
+    border: 3px red;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+/* Parrafos */
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 0px;
+    padding-right: 0px;
+    word-spacing: normal;
+    color: black;
+}
+
+/* Clases Personalizadas*/
+
+.contenedor {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.biomas {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
+    width: 100%;
+}
+
+.caja {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen_small {
+    width: 50%;
+    height: 50%;
+}
+
+.descripcion {
+    display: inline-block;
+    width: 550px;
+    text-align: left;
+    width: 100%;
+}
+
+.bocasucia {
+    background-color: violet;
+}
+
+.cruces {
+    background-color: salmon;
+}
+
+.sendero {
+    background-color: green;
+}
+
+.paramos {
+    background-color: orange;
+}
+
+.ciudad {
+    background-color: cyan;
+}
+
+.parrafo_especial {
+    /*Codigo RGB / Añadir dos números significa transparencia */
+    background-color: #87c0de15;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    color: hsl(60, 100%, 20%);
+
+    /* Margin y Padding en sentido del reloj */
+
+    margin: 20px 40px 60px 100px;
+
+    padding: 20px 40px 60px 100px;
+
+    /* 
+    Cambiar de block a Inline 
+
+    width: 500px;
+
+    display: inline-block; 
+
+    Display none No mostrar algo en pantalla 
+
+    Position relative;
+
+    Position absolute / Se queda en una posición estatica con relación a su sandwich más cercano;
+
+    Position fixed / Se queda pegado en la pantalla;
+
+    Position sticky / Pegadito
+
+    z-index: -1 / Profundidad elementos / Default 0
+    */
+}
+
+.parrafo_especial_dos {
+    background-color: #87c0de15;
+    border: 2px solid cyan;
+    border-radius: 10px;
+
+    color: transparent;
+
+    /* Margin y Padding en sentido del reloj */
+
+    margin: 20px 40px 60px 50px;
+
+    padding: 20px 40px 60px 50px;
+}
+
+.li_especial {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+    display: inline-block;
+}
+
+/* Tablas */
+
+table {
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+    width: 100%;
+    /* Ancho de la tabla */
+    border-collapse: collapse;
+    /* colapsar bordes de la celda */
+}
+
+caption {
+    caption-side: top;
+    /*Ubicación de la leyenda*/
+    font-weight: bold;
+    /* Negrita */
+    margin-bottom: 10px;
+    /* Espacio Inferior */
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+th
+
+/* Color de fondo para los encabezados */
+    {
+    background-color: #ee8787;
+}
+
+tr:nth-child(even)
+
+/* Color de fondo para filas pares */
+    {
+    background-color: #63bbf5;
+}
+
+tr:nth-child(odd)
+
+/* Color de fondo para filas impares */
+    {
+    background-color: #ffffff;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Listas */
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+}
+
+select {
+    width: calc(100% - 110px);
+    padding: 5px;
+    color: blue;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+}
+
+dd {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+}
+
+dl {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+}
+
+/* Formularios */
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Boton */
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: white;
+    background-color: green;
+    border: 2px greenyellow;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+input {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-spacing: normal;
+    color: black;
+}
+
+/* Otras Jerarquías de Títulos h4-h6 */
+
+h4 {
+
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: blue;
+}
+
+h5 {
+
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: blue;
+}
+
+h6 {
+
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    line-height: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: blue;
+}
+
+/* Citas */
+
+blockquote {
+    background-color: aquamarine;
+    border-left: 25px solid #333;
+    /* Linea vertical a la izquierda */
+    margin: 30px;
+    /* quitar los márgenes por defecto */
+    padding: 10px;
+    /* Agregar espacio alrededor */
+}
+
+blockquote p {
+    margin: 5px;
+    /* márgenes para el párrafo dentro del blockquote */
+}
+
+cite {
+    display: block;
+    /* muestra la linea en linea separada */
+    margin-top: 10px;
+    /* espacio superiro */
+    font-style: italic;
+    /* estilo en cursiva */
+}
+
+
+/* DISEÑO RESPONSIVE */
+
+/* ESCRITORIO GRANDE 1920 x 1080 */
+@media (max-width: 1920px) {
+
+    body {
+        background-color: white;
+    }
+
+    .biomas {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .imagen_small {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/* ORDENADOR PORTÁTIL MEDIO 1366 x 768 */
+@media (max-width: 1366px) {
+    body {
+        background-color: slategray;
+    }
+
+    .biomas {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: 550px;
+    }
+
+    .imagen_small {
+        width: 40%;
+    }
+}
+
+/* SMARTPHONE GRANDE 720 x 1280 */
+@media (max-width: 720px) {
+    body {
+        background-color: slateblue;
+    }
+
+    .biomas {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .imagen_small {
+        width: 100%;
+    }
+}
+
+/* MÓVIL MEDIANO 375 x 667 */
+@media (max-width: 375px) {
+    body {
+        background-color: black;
+    }
+
+    .biomas {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .imagen_small {
+        width: 100%;
+    }
+}
+
+/* MÓVIL PEQUEÑO 360 x 640 */
+@media (max-width: 360px) {
+    body {
+        background-color: white;
+    }
+
+    .biomas {
+        width: 100%;
+    }
+
+    .descripcion {
+        width: 100%;
+    }
+
+    .imagen_small {
+        width: 100%;
+    }
+}
